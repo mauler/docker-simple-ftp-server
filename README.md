@@ -14,7 +14,7 @@ How to use
 Simple command line usage:
 
 ```
-docker run -p 11021:21 -it --rm -e FTP_USER=scott -e FTP_PASS=tiger -e mauler/simple-ftp-server
+docker run -p 11021:21 -it --rm -e FTP_USER=scott -e FTP_PASS=tiger mauler/simple-ftp-server
 ```
 
 You can test using:
